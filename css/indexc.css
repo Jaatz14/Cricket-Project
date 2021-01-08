@@ -1,0 +1,29 @@
+body {
+  background-image: url(ground.jpg);
+background-color:lightblue;
+background-repeat: no-repeat;
+background-size: 1500px 1000px;
+background-attachment:fixed;
+}
+
+UL{LIST-STYLE-TYPE:NONE;
+PADDING:20PX;
+background-color:black;
+COLOR:white;
+height:20px;
+opacity:0.6
+}
+
+.R{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:60PX;}
+.S{FLOAT:LEFT;POSITION:ABSOLUTE;LEFT:230PX;}
+.T{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:430PX;}
+.U{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:630PX;TOP:28PX;
+FONT-SIZE:24PX;BORDER:1PX SOLID BLACK;PADDING:5PX 5PX 5PX 5PX;}
+.V{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:860PX;}
+.X{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1050PX;}
+.Y{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1200PX;}
+
+A:link{TEXT-DECORATION:NONE;
+color:white;}
+a:visited{color:white;}
+a:active{color:white;}

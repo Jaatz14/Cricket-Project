@@ -1,0 +1,55 @@
+
+UL{LIST-STYLE-TYPE:NONE;
+PADDING:20PX;
+COLOR:BLACK;
+background-color:black;
+opacity:0.6;
+height:40px;
+color:white;
+}
+
+.R{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:60PX;}
+.S{FLOAT:LEFT;POSITION:ABSOLUTE;LEFT:230PX;}
+.T{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:430PX;}
+.U{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:620PX;TOP:24PX;
+FONT-SIZE:30PX;PADDING:0PX 5PX 5PX 5PX;}
+.V{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:860PX;}
+.X{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1050PX;}
+
+
+
+body{background-image:url(cricket.jpg);
+BACKGROUND-ATTACHMENT:FIXED;
+
+}
+.z{ border:0px solid black;
+float:right;
+margin-right:0px;
+word-wrap:break-word;
+overflow:scroll;
+height:370px;
+width:600px;
+WORD-WRAP:BREAK-WORD;
+opacity:0.9;
+background-color:white;
+PADDING:20PX 20PX 20PX 20PX;
+
+FONT-SIZE:20PX;
+
+background:rgba(255, 255, 255, 0.5);
+}
+SPAN{FLOAT:left;
+MARGIN-RIGHT:50PX;
+MARGIN-TOP:6%;
+}
+.FOOTER{
+BACKGROUND-COLOR:BLACK;
+COLOR:WHITE;
+MARGIN-TOP: 420PX;
+HEIGHT:60PX;
+BORDER-COLLAPSE:COLLAPSE;
+}
+A:link{TEXT-DECORATION:NONE;
+color:white;}
+a:visited{color:white;}
+a:active{color:white;}

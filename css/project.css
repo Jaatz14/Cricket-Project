@@ -1,0 +1,88 @@
+body{
+background-image:url(image1.jpg) ;
+background-repeat : no-repeat;
+background-size:100%;
+background-attachment:fixed;}
+p{
+color:white;
+font-weight:bold;
+font-size:20px;
+}
+span{
+font-family:Tempus Sans ITC;
+font-weight:bold;
+color: mahroon;
+float:right;}
+header{
+border-bottom:3px solid blue;
+font-size:60px;
+width:500px;
+color: mahroon ;
+border: 2px solid white;
+width:100%;
+background-color:white;
+opacity:.8;
+}
+
+A:link{TEXT-DECORATION:NONE;
+color:white;}
+a:visited{color:white;}
+a:active{color:white;}
+summary{font-size:30px;}
+section{
+float:right;
+padding-right:130px;}
+img{
+float:right;
+}
+UL
+{LIST-STYLE-TYPE:NONE;
+
+PADDING:20PX;
+
+COLOR:white;
+
+background-color:black;
+height:40px;
+opacity:.7;
+}
+
+
+.R
+{FLOAT:LEFT; 
+POSITION:ABSOLUTE;
+LEFT:60PX;}
+
+.S
+{FLOAT:LEFT;
+POSITION:ABSOLUTE;
+LEFT:230PX;}
+
+.T
+{FLOAT:LEFT;
+ POSITION:ABSOLUTE;
+LEFT:430PX;}
+
+.U
+{FLOAT:LEFT; 
+POSITION:ABSOLUTE;
+LEFT:630PX;
+TOP:28PX;
+
+FONT-SIZE:24PX;
+BORDER:1PX SOLID BLACK;
+PADDING:5PX 5PX 5PX 5PX;}
+
+.V{
+FLOAT:LEFT;
+ POSITION:ABSOLUTE;
+LEFT:860PX;}
+
+.X{FLOAT:LEFT; 
+POSITION:ABSOLUTE;
+LEFT:1050PX;}
+
+a{
+color:white:
+}
+
