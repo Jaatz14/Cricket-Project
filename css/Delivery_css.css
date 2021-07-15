@@ -1,19 +1,24 @@
-body {
-  background-image: url(white.jpg);
-background-color:lightblue;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment:scroll;
-background-position: center;
+FORM {
+TEXT-ALIGN:CENTER;
+BORDER:DOUBLE;
+background-image: url("Delivery.jpg");
+width:900px;
+height:600px;
+text-align:center;  
+}
+div{
+position:relative;
+left:300px;
 }
 
 UL{LIST-STYLE-TYPE:NONE;
 PADDING:20PX;
-background-color:black;
 COLOR:white;
+background-color:black;
 height:20px;
-opacity:0.6
+opacity:0.6;
 }
+
 .R{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:180PX;}
 .S{FLOAT:LEFT;POSITION:ABSOLUTE;LEFT:430PX;}
 .T{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:710PX;}
@@ -21,12 +26,6 @@ opacity:0.6
 .X{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1280PX;}
 
 A:link{TEXT-DECORATION:NONE;
-color:black;}
+color:white;}
 a:visited{color:white;}
 a:active{color:white;}
-
-img {
-  float: right;
-  border: 1px dotted black;
-  margin: 0px 0px 15px 20px;
-}

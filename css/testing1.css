@@ -8,48 +8,59 @@ height:40px;
 color:white;
 }
 
-.R{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:60PX;}
-.S{FLOAT:LEFT;POSITION:ABSOLUTE;LEFT:230PX;}
-.T{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:430PX;}
-.U{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:620PX;TOP:24PX;
-FONT-SIZE:30PX;PADDING:0PX 5PX 5PX 5PX;}
-.V{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:860PX;}
-.X{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1050PX;}
+.R{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:180PX;}
+.S{FLOAT:LEFT;POSITION:ABSOLUTE;LEFT:430PX;}
+.T{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:710PX;}
+.V{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1030PX;}
+.X{FLOAT:LEFT; POSITION:ABSOLUTE;LEFT:1280PX;}
 
 
 
 body{background-image:url(cricket.jpg);
-BACKGROUND-ATTACHMENT:FIXED;
-
+background-size: 100%;
+background-position: center;
 }
+
 .z{ border:0px solid black;
 float:right;
 margin-right:0px;
+margin-left: 10px;
 word-wrap:break-word;
-overflow:scroll;
-height:370px;
-width:600px;
+overflow-y:scroll;
+overflow-x: hidden;
+height:460px;
+width:750px;
 WORD-WRAP:BREAK-WORD;
 opacity:0.9;
 background-color:white;
 PADDING:20PX 20PX 20PX 20PX;
-
 FONT-SIZE:20PX;
-
 background:rgba(255, 255, 255, 0.5);
 }
-SPAN{FLOAT:left;
-MARGIN-RIGHT:50PX;
-MARGIN-TOP:6%;
+
+SPAN{
+FLOAT:left;
+MARGIN-RIGHT:0PX;
+MARGIN-TOP:0%;
 }
-.FOOTER{
-BACKGROUND-COLOR:BLACK;
-COLOR:WHITE;
-MARGIN-TOP: 420PX;
-HEIGHT:60PX;
-BORDER-COLLAPSE:COLLAPSE;
-}
+
+
+
 A:link{TEXT-DECORATION:NONE;
 color:white;}
 a:visited{color:white;}
 a:active{color:white;}
+
+.ma:link{
+    color:blue;
+}
+.ma:visited{color:blue;}
+.ma:active{color:blue;}
+
+
+img {
+    border: 1px dotted black;
+    margin: 0px 0px 0px 0px;
+    width: 100px;
+    height:100px;
+}
