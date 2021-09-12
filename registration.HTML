@@ -15,7 +15,7 @@
         <LI CLASS="X"><a href="registration.html">REGISTER</a></LI>
     </UL>
     <div>
-        <FORM METHOD=GET>
+        <FORM action="connectreg.php" method="POST">
             <H1>FOR MORE DETAILS PLEASE REGISER</H1>
             <CENTER>
                 NAME:<INPUT TYPE="TEXT" MAXLENGTH="25" NAME="TEXTNAME" REQUIRED PLACEHOLDER="ENTER NAME"><BR /><BR />
@@ -25,12 +25,12 @@
                     REQUIRED></TEXTAREA><BR /><BR />
                 PINCODE:<input type="text" maxlength="6" NAME="PINCODE" PLACEHOLDER="PINCODE" REQUIRED>
                 </input><BR /><BR />
-                GENDER: MALE<INPUT TYPE="RADIO" NAME="R2" CHECKED>&nbsp;&nbsp;FEMALE<INPUT TYPE="RADIO"
-                    NAME="R2"><BR /><BR />
+                GENDER: MALE<INPUT TYPE="RADIO" NAME="gender" value="M" CHECKED>&nbsp;&nbsp;
+                FEMALE<INPUT TYPE="RADIO" NAME="gender" value="F"><BR /><BR />
                 <INPUT TYPE="HIDDEN" NAME="TXTHIDE" VALUE="HIDDEN VALUE"><BR><BR />
-                DATE OF BIRTH:<INPUT TYPE="DATE" NAME="DOB" <BR><BR /> <BR />
+                DATE OF BIRTH:<INPUT TYPE="TEXT" NAME="DOB"><BR><BR /> <BR />
                 PASSWORD:<INPUT TYPE="PASSWORD" NAME="TXTPWD"><BR><BR />
-                PHONE NO. : <INPUT TYPE="PHONE NO." NAME="PHONENO."><BR><BR />
+                PHONE NO. : <INPUT TYPE="TEXT" NAME="PHONENO"><BR><BR />
                 <INPUT TYPE="SUBMIT" VALUE="SUBMIT">
             </CENTER>
         </FORM>
